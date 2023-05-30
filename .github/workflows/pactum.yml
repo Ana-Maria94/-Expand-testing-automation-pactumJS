@@ -15,8 +15,7 @@ on:
       - master
 
 jobs:
-  build:
-    
+  pactum-run:
     runs-on: ubuntu-22.04
 
     steps:
@@ -25,7 +24,5 @@ jobs:
     - name: Pactum run
       uses: actions/checkout@v3.2.0
       with:
-      
-        node-version: 16.14.0
-    - run: npm install
-    - run: npx mocha tests
+       build: npm install
+       start: npx mocha tests
