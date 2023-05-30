@@ -1,0 +1,18 @@
+{
+  "name": "expand-testing-automation-pactumjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "mocha": "^10.2.0",
+    "npx": "^10.2.2",
+    "pactum": "^3.4.1"
+  }
+}
